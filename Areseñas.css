@@ -1,0 +1,202 @@
+body{
+    background-color: #7287B6;
+}
+h3{
+  font-family: 'Bebas Neue', cursive; 
+  font-size: 64px;
+}
+    
+p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
+
+.barra{
+  background-color: #87AEDD;
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+
+}
+.barra ul{
+        list-style: none;
+        }
+    
+        .barra ul li{
+          display: inline-block;
+          
+         }
+           
+      .barra ul li a{
+        text-decoration:double;
+        text-align: left;
+        padding: 20px;
+        color: black;
+        font-size: 18px;
+        }
+      
+      .barra ul li a:hover{
+        background-color: #25254C;
+        color: #F9B992;
+        transition:all 0.3s;
+        }
+
+
+.libros {
+max-width: 100%;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+margin: 30px;
+justify-content: center;
+}
+
+
+
+.L1{
+  display: flex;
+width: 122px;
+height: 184px;
+margin-right: 20px;
+}
+.L2{
+  display: flex;
+width: 122px;
+height: 184px;
+margin-right: 20px;
+}
+.L3{
+  display: flex;
+width: 122px;
+height: 184px;
+margin-right: 20px;
+}
+.L4{
+  display: flex;
+width: 122px;
+height: 184px;
+margin-right: 20px;
+}
+.L5{
+  display: flex;
+width: 122px;
+height: 184px;
+margin-right: 20px;
+}
+.L6{
+  display: flex;
+width: 122px;
+height: 184px;
+margin-right: 20px;
+}
+.L7{
+  display: flex;
+width: 122px;
+height: 184px;
+margin-right: 20px;
+}
+.L8{
+  display: flex;
+width: 122px;
+height: 184px;
+margin-right: 20px;
+}
+.L9{
+  display: flex;
+width: 122px;
+height: 184px;
+margin-right: 20px;
+}
+
+.series {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  justify-content: center;
+  }
+.S1{
+  display: flex;
+width: 133px;
+height: 184px;
+}
+
+.S2{
+  display: flex;
+width: 133px;
+height: 184px;
+}
+
+.S3{
+  display: flex;
+width: 133px;
+height: 184px;
+}
+
+.S4{
+  display: flex;
+width: 133px;
+height: 184px;
+}
+
+.S5{
+  display: flex;
+width: 133px;
+height: 184px;
+}
+
+.S6{
+  display: flex;
+width: 133px;
+height: 184px;
+}
+
+.S7{
+  display: flex;
+width: 133px;
+height: 184px;
+}
+
+.S8{
+  display: flex;
+width: 133px;
+height: 184px;
+}
+
+.S9{
+  display: flex;
+width: 133px;
+height: 184px;
+}
+
+.barra > li{
+  position: relative;
+  }
+
+.subcatalogo{
+  position: absolute;
+  width: 24%;
+  background-color: #333;
+  display: none;
+  justify-content: center;
+}
+
+.subcatalogo li a{
+display: block;
+padding: 15px;
+color: #fff;
+}
+
+.barra li:hover .subcatalogo{
+display:block;
+}
+
+
+.subtittle{
+  font-family: 'Varela Round', sans-serif;
+  font-size: 45px;
+  color:  #F9B992;
+}
